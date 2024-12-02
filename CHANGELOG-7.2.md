@@ -49,6 +49,7 @@ To get the diff between two versions, go to https://github.com/symfony/symfony/c
  * bug #58828 [PhpUnitBridge] fix dumping tests to skip with data providers (xabbuh)
  * bug #58842 [Routing] Fix: lost priority when defining hosts in configuration (BeBlood)
  * bug #58850 [HttpClient] fix PHP 7.2 compatibility (xabbuh)
+ * bug #59067 [Console] Fix Division by 0 error in ProgressBar when `$startAt` > 0
 
 * 7.2.0-RC1 (2024-11-13)
 
